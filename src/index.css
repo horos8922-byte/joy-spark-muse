@@ -114,46 +114,60 @@
     }
   }
 
+  /* Smooth floating animation */
+  @keyframes float-smooth {
+    0%, 100% {
+      transform: translateY(0) translateX(0);
+    }
+    25% {
+      transform: translateY(-15px) translateX(5px);
+    }
+    50% {
+      transform: translateY(-8px) translateX(-3px);
+    }
+    75% {
+      transform: translateY(-20px) translateX(8px);
+    }
+  }
+
   @keyframes float-slow {
     0%, 100% {
       transform: translateY(0) translateX(0);
     }
     33% {
-      transform: translateY(-30px) translateX(10px);
+      transform: translateY(-25px) translateX(8px);
     }
     66% {
-      transform: translateY(-15px) translateX(-10px);
+      transform: translateY(-12px) translateX(-8px);
     }
   }
 
-  @keyframes pulse-glow {
+  @keyframes glow-pulse {
     0%, 100% {
-      opacity: 1;
-      filter: brightness(1);
+      filter: brightness(1) saturate(1);
     }
     50% {
-      opacity: 0.8;
-      filter: brightness(1.3);
+      filter: brightness(1.15) saturate(1.1);
     }
   }
 
   @keyframes rotate-slow {
     from {
-      transform: rotate(0deg);
+      transform: translate(-50%, -50%) rotateX(70deg) rotateZ(0deg);
     }
     to {
-      transform: rotate(360deg);
+      transform: translate(-50%, -50%) rotateX(70deg) rotateZ(360deg);
     }
   }
 
   @keyframes twinkle {
     0%, 100% {
-      opacity: 0.3;
-      transform: scale(1);
+      opacity: 0.2;
+      transform: scale(0.8);
     }
     50% {
       opacity: 1;
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
   }
 
@@ -188,12 +202,39 @@
     }
   }
 
-  @keyframes orbit {
+  @keyframes float-arrow {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(8px);
+    }
+  }
+
+  @keyframes orbit-1 {
     from {
-      transform: rotate(0deg) translateX(150px) rotate(0deg);
+      transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg) translateX(150px) rotate(-360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes orbit-2 {
+    from {
+      transform: rotate(120deg);
+    }
+    to {
+      transform: rotate(480deg);
+    }
+  }
+
+  @keyframes orbit-3 {
+    from {
+      transform: rotate(240deg);
+    }
+    to {
+      transform: rotate(600deg);
     }
   }
 
@@ -208,24 +249,24 @@
     }
   }
 
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
+  .animate-float-smooth {
+    animation: float-smooth 10s cubic-bezier(0.45, 0, 0.55, 1) infinite;
   }
 
   .animate-float-slow {
-    animation: float-slow 8s ease-in-out infinite;
+    animation: float-slow 12s cubic-bezier(0.45, 0, 0.55, 1) infinite;
   }
 
-  .animate-pulse-glow {
-    animation: pulse-glow 3s ease-in-out infinite;
+  .animate-glow-pulse {
+    animation: glow-pulse 4s ease-in-out infinite;
   }
 
   .animate-rotate-slow {
-    animation: rotate-slow 20s linear infinite;
+    animation: rotate-slow 25s linear infinite;
   }
 
   .animate-twinkle {
-    animation: twinkle 2s ease-in-out infinite;
+    animation: twinkle 3s ease-in-out infinite;
   }
 
   .animate-slide-up {
@@ -240,8 +281,20 @@
     animation: scale-in 0.6s ease-out forwards;
   }
 
-  .animate-orbit {
-    animation: orbit 15s linear infinite;
+  .animate-float-arrow {
+    animation: float-arrow 2s ease-in-out infinite;
+  }
+
+  .animate-orbit-1 {
+    animation: orbit-1 20s linear infinite;
+  }
+
+  .animate-orbit-2 {
+    animation: orbit-2 15s linear infinite;
+  }
+
+  .animate-orbit-3 {
+    animation: orbit-3 30s linear infinite;
   }
 
   .animate-meteor {
