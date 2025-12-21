@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Planet } from "./Planet";
-import { Rocket, Sparkles } from "lucide-react";
+import { Rocket, Sparkles, ChevronDown } from "lucide-react";
 
 export const HeroSection = () => {
   return (
@@ -75,13 +75,14 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator - animated arrow */}
       <div 
         className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in"
         style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}
       >
-        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex items-start justify-center p-2">
-          <div className="w-1 h-2 bg-cosmic-purple rounded-full animate-bounce" />
+        <div className="flex flex-col items-center gap-2 text-muted-foreground/50 hover:text-cosmic-purple transition-colors cursor-pointer group">
+          <span className="text-xs uppercase tracking-widest">Скролль</span>
+          <ChevronDown className="w-6 h-6 animate-float-arrow group-hover:text-cosmic-cyan transition-colors" />
         </div>
       </div>
     </section>

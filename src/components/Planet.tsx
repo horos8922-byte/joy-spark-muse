@@ -20,7 +20,7 @@ export const Planet = ({
   return (
     <div 
       className={cn(
-        "absolute animate-float-slow transition-cosmic",
+        "absolute animate-float-smooth transition-cosmic hover:scale-110",
         className
       )}
       style={{ 
@@ -31,7 +31,7 @@ export const Planet = ({
     >
       {/* Planet body */}
       <div 
-        className="w-full h-full rounded-full relative animate-pulse-glow"
+        className="w-full h-full rounded-full relative animate-glow-pulse"
         style={{
           background: `radial-gradient(circle at 30% 30%, ${color}, ${glowColor})`,
           boxShadow: `
