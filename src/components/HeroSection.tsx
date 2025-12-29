@@ -4,7 +4,7 @@ import { Rocket, Sparkles, ChevronDown } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden px-6">
       {/* Floating planets */}
       <Planet 
         size={120} 

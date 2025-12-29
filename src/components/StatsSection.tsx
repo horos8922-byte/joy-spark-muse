@@ -9,7 +9,7 @@ const stats = [
 
 export const StatsSection = () => {
   return (
-    <section className="relative py-24 px-6">
+    <section id="stats" className="relative py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="glass-card rounded-3xl p-8 md:p-12 glow-border">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
