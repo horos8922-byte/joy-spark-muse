@@ -8,6 +8,8 @@ import { GallerySection } from "@/components/GallerySection";
 import { Footer } from "@/components/Footer";
 import { CursorGlow } from "@/components/CursorGlow";
 import { OrbitingElements } from "@/components/OrbitingElements";
+import { ParallaxBackground } from "@/components/ParallaxBackground";
+import { FloatingIcons } from "@/components/FloatingIcons";
 
 const Index = () => {
   return (
@@ -20,6 +22,8 @@ const Index = () => {
       <Nebula />
       <Meteors />
       <OrbitingElements />
+      <ParallaxBackground />
+      <FloatingIcons />
       
       {/* Content */}
       <main className="relative z-10">

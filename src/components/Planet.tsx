@@ -20,11 +20,12 @@ export const Planet = ({
   return (
     <div 
       className={cn(
-        "absolute animate-float-smooth transition-cosmic hover:scale-110",
+        "absolute animate-gentle-drift transition-cosmic hover:scale-105",
         className
       )}
       style={{ 
         animationDelay: `${delay}s`,
+        animationDuration: `${18 + delay * 2}s`,
         width: size,
         height: size,
       }}

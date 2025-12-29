@@ -114,19 +114,13 @@
     }
   }
 
-  /* Smooth floating animation */
+  /* Ultra smooth floating animation */
   @keyframes float-smooth {
     0%, 100% {
       transform: translateY(0) translateX(0);
     }
-    25% {
-      transform: translateY(-15px) translateX(5px);
-    }
     50% {
-      transform: translateY(-8px) translateX(-3px);
-    }
-    75% {
-      transform: translateY(-20px) translateX(8px);
+      transform: translateY(-12px) translateX(3px);
     }
   }
 
@@ -134,11 +128,8 @@
     0%, 100% {
       transform: translateY(0) translateX(0);
     }
-    33% {
-      transform: translateY(-25px) translateX(8px);
-    }
-    66% {
-      transform: translateY(-12px) translateX(-8px);
+    50% {
+      transform: translateY(-8px) translateX(-2px);
     }
   }
 
@@ -147,7 +138,16 @@
       filter: brightness(1) saturate(1);
     }
     50% {
-      filter: brightness(1.15) saturate(1.1);
+      filter: brightness(1.08) saturate(1.05);
+    }
+  }
+
+  @keyframes gentle-drift {
+    0%, 100% {
+      transform: translateY(0) translateX(0) scale(1);
+    }
+    50% {
+      transform: translateY(-6px) translateX(4px) scale(1.01);
     }
   }
 
@@ -250,15 +250,19 @@
   }
 
   .animate-float-smooth {
-    animation: float-smooth 10s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+    animation: float-smooth 16s cubic-bezier(0.37, 0, 0.63, 1) infinite;
   }
 
   .animate-float-slow {
-    animation: float-slow 12s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+    animation: float-slow 20s cubic-bezier(0.37, 0, 0.63, 1) infinite;
   }
 
   .animate-glow-pulse {
-    animation: glow-pulse 4s ease-in-out infinite;
+    animation: glow-pulse 6s ease-in-out infinite;
+  }
+
+  .animate-gentle-drift {
+    animation: gentle-drift 18s cubic-bezier(0.37, 0, 0.63, 1) infinite;
   }
 
   .animate-rotate-slow {
