@@ -13,7 +13,7 @@ export const Footer = () => {
           </div>
           
           <nav className="flex items-center gap-8">
-            {["Исследовать", "Галерея", "Миссии", "О нас"].map((link) => (
+            {["Explore", "Gallery", "Missions", "About"].map((link) => (
               <a 
                 key={link}
                 href="#" 
@@ -25,7 +25,7 @@ export const Footer = () => {
           </nav>
           
           <p className="text-sm text-muted-foreground">
-            © 2024 Cosmic Journey. Все права защищены.
+            © 2026 Cosmic Journey. All rights reserved.
           </p>
         </div>
       </div>

@@ -2,16 +2,16 @@ import { Quote } from "lucide-react";
 
 const quotes = [
   {
-    text: "Земля — колыбель человечества, но нельзя вечно жить в колыбели.",
-    author: "Константин Циолковский",
+    text: "Earth is the cradle of humanity, but one cannot live in the cradle forever.",
+    author: "Konstantin Tsiolkovsky",
   },
   {
-    text: "Это один маленький шаг для человека, но гигантский скачок для человечества.",
-    author: "Нил Армстронг",
+    text: "That's one small step for man, one giant leap for mankind.",
+    author: "Neil Armstrong",
   },
   {
-    text: "Где-то там что-то невероятное ждёт, чтобы его узнали.",
-    author: "Карл Саган",
+    text: "Somewhere, something incredible is waiting to be known.",
+    author: "Carl Sagan",
   },
 ];
 

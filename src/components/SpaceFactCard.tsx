@@ -3,14 +3,14 @@ import { Sparkles, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 
 const facts = [
-  "На Венере день длится дольше, чем год — 243 земных дня против 225.",
-  "Нейтронная звезда размером с город весит больше, чем Солнце.",
-  "В космосе полная тишина — звуковые волны не распространяются в вакууме.",
-  "На Сатурне и Юпитере идут алмазные дожди.",
-  "Свет от Солнца достигает Земли за 8 минут 20 секунд.",
-  "В нашей галактике больше звёзд, чем песчинок на всех пляжах Земли.",
-  "Самая большая известная звезда — UY Щита — в 1700 раз больше Солнца.",
-  "МКС движется со скоростью 27 600 км/ч — это 7,7 км в секунду.",
+  "A day on Venus lasts longer than a year — 243 Earth days vs 225.",
+  "A neutron star the size of a city weighs more than the Sun.",
+  "Space is completely silent — sound waves cannot travel through a vacuum.",
+  "It rains diamonds on Saturn and Jupiter.",
+  "Light from the Sun reaches Earth in 8 minutes and 20 seconds.",
+  "There are more stars in our galaxy than grains of sand on all Earth's beaches.",
+  "The largest known star — UY Scuti — is 1,700 times larger than the Sun.",
+  "The ISS travels at 27,600 km/h — that's 7.7 km per second.",
 ];
 
 export const SpaceFactCard = () => {
@@ -39,7 +39,7 @@ export const SpaceFactCard = () => {
 
           <div className="relative z-10">
             <span className="inline-block px-4 py-1 rounded-full bg-cosmic-purple/20 text-cosmic-purple text-sm mb-6">
-              Факт #{currentFact + 1}
+              Fact #{currentFact + 1}
             </span>
 
             <p
@@ -55,7 +55,7 @@ export const SpaceFactCard = () => {
               variant="glow"
               className="group/btn"
             >
-              Следующий факт
+              Next Fact
               <ChevronRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
             </Button>
           </div>

@@ -2,27 +2,27 @@ import { GalaxyCard } from "./GalaxyCard";
 
 const galaxies = [
   {
-    name: "Андромеда",
-    type: "Спиральная галактика",
-    distance: "2.5 млн световых лет",
+    name: "Andromeda",
+    type: "Spiral Galaxy",
+    distance: "2.5 million light-years",
     image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&q=80",
   },
   {
-    name: "Туманность Ориона",
-    type: "Эмиссионная туманность",
-    distance: "1,344 световых года",
+    name: "Orion Nebula",
+    type: "Emission Nebula",
+    distance: "1,344 light-years",
     image: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&q=80",
   },
   {
-    name: "Млечный Путь",
-    type: "Спиральная галактика",
-    distance: "Наш дом",
+    name: "Milky Way",
+    type: "Spiral Galaxy",
+    distance: "Our Home",
     image: "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=800&q=80",
   },
   {
-    name: "Туманность Кольцо",
-    type: "Планетарная туманность",
-    distance: "2,000 световых лет",
+    name: "Ring Nebula",
+    type: "Planetary Nebula",
+    distance: "2,000 light-years",
     image: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
   },
 ];
@@ -36,13 +36,13 @@ export const GallerySection = () => {
             className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-slide-up"
             style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
           >
-            Космическая <span className="cosmic-gradient-text">галерея</span>
+            Cosmic <span className="cosmic-gradient-text">Gallery</span>
           </h2>
           <p 
             className="text-lg text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in"
             style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
           >
-            Самые впечатляющие объекты нашей Вселенной
+            The most impressive objects in our Universe
           </p>
         </div>
 
