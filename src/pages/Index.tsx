@@ -10,6 +10,10 @@ import { CursorGlow } from "@/components/CursorGlow";
 import { OrbitingElements } from "@/components/OrbitingElements";
 import { ParallaxBackground } from "@/components/ParallaxBackground";
 import { FloatingIcons } from "@/components/FloatingIcons";
+import { TimelineSection } from "@/components/TimelineSection";
+import { QuoteSection } from "@/components/QuoteSection";
+import { CosmicCounter } from "@/components/CosmicCounter";
+import { SpaceFactCard } from "@/components/SpaceFactCard";
 
 const Index = () => {
   return (
@@ -29,6 +33,10 @@ const Index = () => {
       <main className="relative z-10">
         <HeroSection />
         <FeaturesSection />
+        <CosmicCounter />
+        <TimelineSection />
+        <QuoteSection />
+        <SpaceFactCard />
         <StatsSection />
         <GallerySection />
         <Footer />

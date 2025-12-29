@@ -75,13 +75,12 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll indicator - animated arrow */}
+      {/* Scroll indicator - animated arrow only */}
       <div 
         className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in"
         style={{ animationDelay: '1.2s', animationFillMode: 'forwards' }}
       >
         <div className="flex flex-col items-center gap-2 text-muted-foreground/50 hover:text-cosmic-purple transition-colors cursor-pointer group">
-          <span className="text-xs uppercase tracking-widest">Скролль</span>
           <ChevronDown className="w-6 h-6 animate-float-arrow group-hover:text-cosmic-cyan transition-colors" />
         </div>
       </div>
