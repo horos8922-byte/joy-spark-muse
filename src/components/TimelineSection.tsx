@@ -47,7 +47,7 @@ const events = [
 
 export const TimelineSection = () => {
   return (
-    <section className="py-24 px-6 relative overflow-hidden">
+    <section id="timeline" className="py-24 px-6 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">

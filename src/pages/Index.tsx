@@ -1,6 +1,7 @@
 import { Stars } from "@/components/Stars";
 import { Nebula } from "@/components/Nebula";
 import { Meteors } from "@/components/Meteor";
+import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { StatsSection } from "@/components/StatsSection";
@@ -29,6 +30,9 @@ const Index = () => {
       <ParallaxBackground />
       <FloatingIcons />
       
+      {/* Navigation */}
+      <Navigation />
+
       {/* Content */}
       <main className="relative z-10">
         <HeroSection />

@@ -29,7 +29,7 @@ const galaxies = [
 
 export const GallerySection = () => {
   return (
-    <section className="relative py-32 px-6">
+    <section id="gallery" className="relative py-32 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 

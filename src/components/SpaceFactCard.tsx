@@ -26,7 +26,7 @@ export const SpaceFactCard = () => {
   };
 
   return (
-    <section className="py-24 px-6">
+    <section id="facts" className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
         <div className="glass-card p-8 md:p-12 rounded-3xl relative overflow-hidden group">
           {/* Animated background glow */}
