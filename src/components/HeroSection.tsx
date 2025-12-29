@@ -41,7 +41,7 @@ export const HeroSection = () => {
         <div className="opacity-0 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50 backdrop-blur-sm border border-cosmic-purple/30 text-cosmic-purple text-sm mb-8">
             <Sparkles className="w-4 h-4" />
-            Исследуй бесконечность
+            Explore the Infinite
           </span>
         </div>
 
@@ -49,16 +49,16 @@ export const HeroSection = () => {
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 opacity-0 animate-slide-up"
           style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
         >
-          <span className="block text-foreground">Путешествие</span>
-          <span className="cosmic-gradient-text glow-text">сквозь Космос</span>
+          <span className="block text-foreground">Journey</span>
+          <span className="cosmic-gradient-text glow-text">Through the Cosmos</span>
         </h1>
 
         <p 
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 opacity-0 animate-slide-up"
           style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
         >
-          Открой для себя тайны Вселенной. Миллиарды галактик, 
-          триллионы звёзд — и всё это ждёт твоего открытия.
+          Discover the mysteries of the Universe. Billions of galaxies, 
+          trillions of stars — all waiting for your discovery.
         </p>
 
         <div 
@@ -67,10 +67,10 @@ export const HeroSection = () => {
         >
           <Button variant="cosmic" size="xl" className="group">
             <Rocket className="w-5 h-5 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
-            Начать путешествие
+            Start Your Journey
           </Button>
           <Button variant="glow" size="xl">
-            Узнать больше
+            Learn More
           </Button>
         </div>
       </div>

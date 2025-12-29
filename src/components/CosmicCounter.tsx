@@ -60,10 +60,10 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "", prefix = "" }: Cou
 };
 
 const counters = [
-  { end: 200, suffix: " млрд+", label: "Галактик во Вселенной" },
-  { end: 100, suffix: " млрд", label: "Звёзд в Млечном Пути" },
-  { end: 5500, suffix: "+", label: "Открытых экзопланет" },
-  { end: 13, suffix: ".8 млрд лет", label: "Возраст Вселенной" },
+  { end: 200, suffix: "B+", label: "Galaxies in the Universe" },
+  { end: 100, suffix: "B", label: "Stars in the Milky Way" },
+  { end: 5500, suffix: "+", label: "Discovered Exoplanets" },
+  { end: 13, suffix: ".8B years", label: "Age of the Universe" },
 ];
 
 export const CosmicCounter = () => {
@@ -72,7 +72,7 @@ export const CosmicCounter = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Вселенная в <span className="cosmic-gradient-text">числах</span>
+            The Universe in <span className="cosmic-gradient-text">Numbers</span>
           </h2>
         </div>
 

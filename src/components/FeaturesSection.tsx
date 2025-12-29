@@ -4,38 +4,38 @@ import { Telescope, Globe2, Orbit, Stars, Rocket, Satellite } from "lucide-react
 const features = [
   {
     icon: Telescope,
-    title: "Глубокий космос",
-    description: "Исследуй далёкие галактики и туманности, расположенные на расстоянии миллиардов световых лет.",
+    title: "Deep Space",
+    description: "Explore distant galaxies and nebulae located billions of light-years away.",
     color: "purple" as const,
   },
   {
     icon: Globe2,
-    title: "Экзопланеты",
-    description: "Открой миры за пределами нашей Солнечной системы — потенциальные дома для внеземной жизни.",
+    title: "Exoplanets",
+    description: "Discover worlds beyond our Solar System — potential homes for extraterrestrial life.",
     color: "cyan" as const,
   },
   {
     icon: Orbit,
-    title: "Орбитальные данные",
-    description: "Отслеживай движение планет, астероидов и комет в реальном времени.",
+    title: "Orbital Data",
+    description: "Track the movement of planets, asteroids, and comets in real-time.",
     color: "pink" as const,
   },
   {
     icon: Stars,
-    title: "Звёздные карты",
-    description: "Интерактивные 3D-карты звёздного неба с детальной информацией о каждом объекте.",
+    title: "Star Maps",
+    description: "Interactive 3D maps of the night sky with detailed information about each object.",
     color: "purple" as const,
   },
   {
     icon: Rocket,
-    title: "Космические миссии",
-    description: "Следи за активными миссиями NASA, ESA и частных космических компаний.",
+    title: "Space Missions",
+    description: "Follow active missions from NASA, ESA, and private space companies.",
     color: "cyan" as const,
   },
   {
     icon: Satellite,
-    title: "Спутники Земли",
-    description: "Визуализация всех искусственных спутников на орбите нашей планеты.",
+    title: "Earth Satellites",
+    description: "Visualization of all artificial satellites in orbit around our planet.",
     color: "pink" as const,
   },
 ];
@@ -49,13 +49,13 @@ export const FeaturesSection = () => {
             className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-slide-up"
             style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
           >
-            <span className="cosmic-gradient-text">Возможности</span> платформы
+            Platform <span className="cosmic-gradient-text">Features</span>
           </h2>
           <p 
             className="text-lg text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in"
             style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
           >
-            Всё, что нужно для изучения космоса — в одном месте
+            Everything you need to explore space — in one place
           </p>
         </div>
 

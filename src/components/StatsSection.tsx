@@ -1,10 +1,10 @@
 import { cn } from "@/lib/utils";
 
 const stats = [
-  { value: "200B+", label: "Галактик во Вселенной", color: "cosmic-purple" },
-  { value: "100B", label: "Звёзд в Млечном Пути", color: "cosmic-cyan" },
-  { value: "5000+", label: "Подтверждённых экзопланет", color: "cosmic-pink" },
-  { value: "∞", label: "Возможностей для открытий", color: "cosmic-purple" },
+  { value: "200B+", label: "Galaxies in the Universe", color: "cosmic-purple" },
+  { value: "100B", label: "Stars in the Milky Way", color: "cosmic-cyan" },
+  { value: "5000+", label: "Confirmed Exoplanets", color: "cosmic-pink" },
+  { value: "∞", label: "Possibilities for Discovery", color: "cosmic-purple" },
 ];
 
 export const StatsSection = () => {

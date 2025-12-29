@@ -3,43 +3,43 @@ import { Rocket, Satellite, Globe, Star, Telescope, Atom } from "lucide-react";
 const events = [
   {
     year: "1957",
-    title: "Спутник-1",
-    description: "Первый искусственный спутник Земли",
+    title: "Sputnik 1",
+    description: "First artificial Earth satellite",
     Icon: Satellite,
     color: "cosmic-cyan",
   },
   {
     year: "1961",
-    title: "Юрий Гагарин",
-    description: "Первый человек в космосе",
+    title: "Yuri Gagarin",
+    description: "First human in space",
     Icon: Rocket,
     color: "cosmic-purple",
   },
   {
     year: "1969",
-    title: "Аполлон-11",
-    description: "Первая высадка на Луну",
+    title: "Apollo 11",
+    description: "First Moon landing",
     Icon: Globe,
     color: "cosmic-pink",
   },
   {
     year: "1990",
-    title: "Хаббл",
-    description: "Запуск космического телескопа",
+    title: "Hubble",
+    description: "Space telescope launch",
     Icon: Telescope,
     color: "cosmic-cyan",
   },
   {
     year: "2012",
-    title: "Бозон Хиггса",
-    description: "Открытие частицы Бога",
+    title: "Higgs Boson",
+    description: "Discovery of the God particle",
     Icon: Atom,
     color: "cosmic-purple",
   },
   {
     year: "2024",
-    title: "Артемида",
-    description: "Возвращение на Луну",
+    title: "Artemis",
+    description: "Return to the Moon",
     Icon: Star,
     color: "cosmic-pink",
   },
@@ -51,10 +51,10 @@ export const TimelineSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="cosmic-gradient-text">История</span> покорения космоса
+            <span className="cosmic-gradient-text">History</span> of Space Exploration
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Ключевые моменты, изменившие наше понимание Вселенной
+            Key moments that changed our understanding of the Universe
           </p>
         </div>
 
